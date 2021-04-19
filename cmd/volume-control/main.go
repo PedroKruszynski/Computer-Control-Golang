@@ -5,5 +5,7 @@ import (
 )
 
 func main() {
-	server.StartServer()
+	port := ":8888"
+	server.StartServerSsdp(port)
+	server.StartServerRest(port)
 }
