@@ -1,7 +1,7 @@
 package main
 
 import (
-	server "volume-control/internal/server"
+	server "computer-control/internal/server"
 )
 
 func main() {
